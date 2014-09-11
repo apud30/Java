@@ -3,18 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
-package Class2;
+package class2;
 
 /**
  *
  * @author ivan
  */
-public class CompletedTask extends Task {
-    
-    CompletedTask (String title){
-        this.title=title;
-        this.statusIcon="X";
+public class OnHoldTask extends Task {
+
+    OnHoldTask(String title) {
+        this.title = title;
+        this.statusIcon = "▌▌";
     }
-    
+
 }
