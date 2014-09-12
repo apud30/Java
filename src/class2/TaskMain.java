@@ -20,7 +20,7 @@ public class TaskMain {
         db.addCompletedTask("Learn Java");
         db.addCompletedTask("Do the exercise");
         db.addTask("Learn Dutch");
-        db.addOnHoldTask("Learn Japanese");
+        db.addOnHoldTask("Learn Italian");
 
         db.displayAll();
     }

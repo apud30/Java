@@ -18,19 +18,16 @@ public class TaskDatabase {
     void addTask(String title) {
         //Incompleted task
         Task task = new IncompletedTask(title);
-        task.title = title;
         item.add(task);
     }
 
     void addCompletedTask(String title) {
         Task task = new CompletedTask(title);
-        task.title = title;
         item.add(task);
     }
 
     void addOnHoldTask(String title) {
         Task task = new OnHoldTask(title);
-        task.title = title;
         item.add(task);
     }
 
